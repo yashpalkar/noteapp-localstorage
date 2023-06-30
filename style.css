@@ -1,0 +1,42 @@
+.add-btn{
+    text-align: end;
+    float: right;
+    color: aquas;
+    margin: 10px;
+    
+}
+
+.note{
+    background-color: #fff;
+    margin:30px 20px;
+    height:200px;
+    width: 400px;
+    overflow-y: scroll;
+    margin-top: 7rem;
+    box-shadow: inset 1px 1px 0 rgba(0,0,0,0.1),
+    inset 0 -1px 0 rgba(0,0,0,0.1);
+}
+
+.note .operation{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem;
+}
+.note .operation{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem;
+}
+
+.note textarea{
+    outline: none;
+    font-family: inherit;
+    font-size: 1.2rem;
+    border: none;
+    height:  300px;
+    width:100%;
+    padding:20px;
+}
+.hidden{
+    display: none;
+}
